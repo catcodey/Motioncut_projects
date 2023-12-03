@@ -82,7 +82,7 @@ def update():
         import pandas as pd
         df=pd.read_csv("tasks.csv")
         df['sno'] = df['sno'].astype(str)
-        task=input("enetr task name to update: ")
+        task=input("enter task number to update: ")
         
         
         c2read=csv.reader(csvfile3)
